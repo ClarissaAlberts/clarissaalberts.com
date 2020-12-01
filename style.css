@@ -39,7 +39,6 @@ main {
 
 header {
     background-color: #fcf8fd;
-    height: 40%;
     border-bottom: 1px solid #dac7e2;
     padding-top: 15px;
 }
@@ -78,7 +77,6 @@ header {
     border-radius: 5px;
     background-color: #dac7e2;
     margin: 5px;
-    font-size: 20px;
 }
 
 #navbar a:hover {
@@ -217,9 +215,6 @@ footer p {
         width: 47%;
     }
     
-    header {
-        height: 30%;
-    }
     
     #navbar a {
     text-decoration: none;
@@ -245,9 +240,6 @@ footer p {
         width: 31.5%;
     }
     
-    header {
-        height: 30%;
-    }
     
     #navbar a {
     text-decoration: none;
@@ -272,9 +264,6 @@ footer p {
         width: 23.5%;
     }
     
-    header {
-        height: 30%;
-    }
     
     #navbar a {
     text-decoration: none;
