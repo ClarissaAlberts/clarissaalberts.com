@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Clarissa Alberts Art</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+<header id="header-container">
+    <img id="logo-image" src="web-images/logo_alt.png">
+    
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://www.instagram.com/artbyclarissa/">Instagram</a></li>
+        </ul>
+    </nav></header>
+    
+   <div id="page-container"> <main>
+    
+        <div id="image-grid">
+            <img id="img-1" class="thumbnail" src="portfolio/img1-thumb.jpg">
+            <img id="img-2" class="thumbnail" src="portfolio/img2-thumb.jpg">
+            <img id="img-3" class="thumbnail" src="portfolio/img3-thumb.jpg">
+            <img id="img-4" class="thumbnail" src="portfolio/img4-thumb.jpg">
+        </div>
+
+        <div id="modal-1" class="modal">
+        <div class="modal-content">
+            <div><span class="close" onclick="span1()">&times;</span></div>
+            <div><img class="image" src="portfolio/img1.jpg">
+            <p><button class="full-size-btn" onclick="window.open('portfolio/img1.jpg')">Full Size Image</button></p></div>
+        </div></div>
+        
+        <div id="modal-2" class="modal">
+        <div class="modal-content">
+            <div><span class="close" onclick="span2()">&times;</span></div>
+            <div><img class="image" src="portfolio/img2.jpg">
+            <p><button class="full-size-btn" onclick="window.open('portfolio/img2.jpg')">Full Size Image</button></p></div>
+        </div></div>
+        
+        <div id="modal-3" class="modal">
+        <div class="modal-content">
+            <div><span class="close" onclick="span3()">&times;</span></div>
+            <div><img class="image" src="portfolio/img3.png">
+            <p><button class="full-size-btn" onclick="window.open('portfolio/img3.png')">Full Size Image</button></p></div>
+        </div></div>
+        
+        <div id="modal-4" class="modal">
+        <div class="modal-content">
+            <div><span class="close" onclick="span4()">&times;</span></div>
+            <div><img class="image" src="portfolio/img4.jpg">
+            <p><button class="full-size-btn" onclick="window.open('portfolio/img4.jpg')">Full Size Image</button></p></div>
+        </div></div>
+    
+    </main>
+    
+    <footer>
+    <div id="footer-div">
+        <ul id="footer-nav">
+            <li></li>
+        </ul>
+        <p>© Clarissa Alberts. All rights reserved.</p>
+        </div></footer>
+    </div>
+    
+</body>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/4c19599299.js" crossorigin="anonymous"></script>
+    
+</html>
