@@ -77,3 +77,10 @@ window.addEventListener('click', function(event) {
     modal4.style.display = "none";
   }
 });
+
+
+
+window.addEventListener('resize', () => { 
+  document.querySelector(':root').style
+    .setProperty('--vh', window.innerHeight/100 + 'px');
+})
